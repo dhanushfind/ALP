@@ -1,0 +1,15 @@
+[
+    {
+            "_id": {
+              "$oid": "637c445dabf5f320e8fee365"
+            },
+            "leaves": [],
+            "name": "Dr. Bhagavathi Sivakumar P.",
+            "username": "fac1",
+            "password": "$2a$10$z8qb0kTCWhgVs5RuvJB8VeDIMpsi/prvjufLFrtcJvR8qQ7TvNBIu",
+            "department": "CSE",
+            "type": "hod",
+            "image": "https://amrita.edu/wp-content/uploads/2014/01/Dr-Bhagavathi-Sivakumar-P_associate-professor_cse_engineering_coimbatore.jpg"
+
+}
+]

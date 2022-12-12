@@ -1,0 +1,12 @@
+{
+    "_id": {
+      "$oid": "637c4135abf5f320e8fee364"
+    },
+    "name": "santosh ",
+    "username": "santosh123",
+    "password": "$2a$10$fO/1kpqJxqHQKhKLVzy7nenLvM1PBVy6HC7bvV4/ocCUCZw2hPdwe",
+    "hostel": "YB-ANNEX",
+    "type": "warden",
+    "image": "https://raw.githubusercontent.com/dhanushfind/e-commerce/main/warden.jpg",
+    "__v": 0
+  }

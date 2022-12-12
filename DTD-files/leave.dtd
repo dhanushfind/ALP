@@ -1,0 +1,20 @@
+<!ELEMENT leave (status,wardenstatus,finalstatus,subject,from,to,days,createdAt,updatedAt)>
+    <!ELEMENT status (#PCDATA)>
+    <!ELEMENT wardenstatus (#PCDATA)>
+    <!ELEMENT finalstatus (#PCDATA)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT to (#PCDATA)>
+    
+status
+wardenstatus
+finalstatus
+subject
+from
+to
+days
+1
+createdAt
+updatedAt
+__v
+0

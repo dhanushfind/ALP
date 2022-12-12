@@ -1,0 +1,41 @@
+[
+    {
+        "_id": {
+          "$oid": "637c453aabf5f320e8fee367"
+        },
+        "status": "approved",
+        "wardenstatus": "approved",
+        "finalstatus": "pending",
+        "approved": true,
+        "denied": false,
+        "subject": "going outing",
+        "from": {
+          "$date": {
+            "$numberLong": "1669075200000"
+          }
+        },
+        "to": {
+          "$date": {
+            "$numberLong": "1669161600000"
+          }
+        },
+        "days": 1,
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1669088570062"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1669088658409"
+          }
+        },
+        "__v": 0,
+        "stud": {
+          "id": {
+            "$oid": "637c4511abf5f320e8fee366"
+          },
+          "username": "s1"
+        }
+      }
+]

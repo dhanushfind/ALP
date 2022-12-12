@@ -1,0 +1,213 @@
+<% include ./partial/header %>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li
+      data-target="#carouselExampleIndicators"
+      data-slide-to="0"
+      class="active"
+    ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
+        class="fixed-height d-block w-100"
+        alt="First slide"
+        style="max-width:100%;height:100%;"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Om Amriteswaryai Namah</h5>
+        <p>“The treasure house of knowledge is not outside; it is within us. To open its doors, develop a reverential attitude.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/en/f/f8/Amrita-vishwa-vidyapeetham-color-logo.png"
+        class="fixed-height d-block w-100"
+        style="max-width:100%;height:100%;"
+        alt="Second slide"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Develop</h5>
+        <p>“Education is not the filling of a pail, but the lighting of a fire.”</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="data:image/jpeg;base64,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"
+        class="fixed-height d-block w-100"
+        style="max-width:100%;height:100%;"
+        alt="Third slide"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Be Passionate</h5>
+        <p>Develop a passion for learning. If you do, you will never cease to grow.</p>
+      </div>
+    </div>
+  </div>
+  <a
+    class="carousel-control-prev"
+    href="#carouselExampleIndicators"
+    role="button"
+    data-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#carouselExampleIndicators"
+    role="button"
+    data-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div id="scrollspy1" style="border: 1px solid black;">
+  <div
+    class="jumbotron"
+    style="height: 600px ;    background-image: url('https://indiacsr.in/wp-content/uploads/2021/04/AMMA-at-India-CSR-Network.jpg');    background-color: #008cbf;
+    color: #ffffff;
+    box-shadow: inset 50px 50px 100px #000000, inset -50px -50px 100px #000000;
+    padding-top: 18em;
+    
+  
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    
+    justify-content: center;
+    background-repeat: no-repeat;
+    "
+  >
+    <div class="contact" style="color: white;">
+      <h1 style=" font-weight: bold; color: white; ">
+        We'd love to hear from you
+      </h1>
+      <p style="font-weight: bold;">
+        Need to get in touch with the team?We're all ears.Our team is here to
+        help you.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" style="padding-bottom:40px; ">
+      <div class="col-sm-4">
+        <div class="card" style="background-color: black;">
+          <img
+            class="card-img-top"
+            style="height: 400px;"
+            src="http://amrita.edu/wp-content/uploads/2015/05/thangavelu.jpg"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Dr. Thangavelu S.</h4>
+            <p class="card-text" style="color: white;">Assistant Professor (SG)</p>
+            <a href="https://www.amrita.edu/faculty/s-thangavelu/" class="btn btn-warning card-link">View Profile</a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="card" style="background-color: black;">
+            <img
+              class="card-img-top"
+              style="height: 400px;"
+              src="https://amrita.edu/wp-content/uploads/2014/01/Ramya-G-R_asst-professor_cse_engineering_coimbatore.jpg"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Ramya G. R.</h4>
+              <p class="card-text" style="color: white;">Assistant Professor (Sr. Gr.)</p>
+              <a href="https://www.amrita.edu/faculty/gr-ramya/" class="btn btn-warning card-link">View Profile</a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="card" style="background-color: black;">
+            <img
+              class="card-img-top"
+              style="height: 400px;"
+              src="https://amrita.edu/wp-content/uploads/2014/01/Dr-Vidhya-Balasubramanian_professor_cse_engineering_coimbatore.jpg"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Dr. Vidhya Balasubramanian</h4>
+              <p class="card-text" style="color: white;">Principal <br>Professor</p>
+              <a href="https://www.amrita.edu/faculty/b-vidhya/" class="btn btn-warning card-link">View Profile</a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="card" style="background-color: black;">
+            <img
+              class="card-img-top"
+              style="height: 400px;"
+              src="https://amrita.edu/wp-content/uploads/2014/01/Dr-Lalithamani-N_asst-professor_cse_engineering_coimbatore.jpg"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Dr. Lalithamani N.</h4>
+              <p class="card-text" style="color: white;">Vice Chairperson<br>
+                Associate Professor</p>
+              <a href="https://www.amrita.edu/faculty/n-lalitha/" class="btn btn-warning card-link"></a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="card" style="background-color: black;">
+            <img
+              class="card-img-top"
+              style="height: 400px;"
+              src="https://amrita.edu/wp-content/uploads/2014/01/Dr-Senthil-Kumar-T_associate-professor_cse_engineering_coimbatore.jpg"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Dr. Senthil Kumar T.</h4>
+              <p class="card-text" style="color: white;">Associate Professor</p>
+              <a href="https://www.amrita.edu/faculty/t-senthilkumar/" class="btn btn-warning card-link">View Profile</a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="card" style="background-color: black;">
+            <img
+              class="card-img-top"
+              style="height: 400px;"
+              src="https://amrita.edu/wp-content/uploads/2014/01/Dr-Jeyakumar-G_associate-professor_vice-chair-person_cse_engineering_coimbatore.jpg"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Dr. Jeyakumar G.</h4>
+              <p class="card-text" style="color: white;">Professor</p>
+              <a href="https://www.amrita.edu/faculty/g-jeyakumar/" class="btn btn-warning card-link">View Profile</a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<% include ./partial/footer %>

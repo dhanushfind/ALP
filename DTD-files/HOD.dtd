@@ -1,0 +1,7 @@
+    <!ELEMENT HOD (name,username,password,department,type,image)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT username (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT image (#PCDATA)>

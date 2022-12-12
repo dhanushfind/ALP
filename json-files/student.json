@@ -1,0 +1,18 @@
+{
+    "_id": {
+      "$oid": "637c4511abf5f320e8fee366"
+    },
+    "leaves": [
+      {
+        "$oid": "637c453aabf5f320e8fee367"
+      }
+    ],
+    "name": "NANDHYALA DHANUSH REDDY",
+    "username": "s1",
+    "password": "$2a$10$eE2KAF8LJo0Qg/E89.93MuSICJOlDBc2HPhH0xzKf68esjLd5O.lG",
+    "department": "CSE",
+    "hostel": "YB-ANNEX",
+    "type": "student",
+    "image": "https://www.immigration.govt.nz/images/acceptable-photos/acceptable-photos-correct5.jpg/@@images/image/large",
+    "__v": 1
+  }
